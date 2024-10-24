@@ -6,3 +6,6 @@ target_link_libraries(dataframe_performance_2 PRIVATE DataFrame)
 
 add_executable(linkedin_benchmark linkedin_benchmark.cc)
 target_link_libraries(linkedin_benchmark PRIVATE DataFrame)
+
+add_executable(pdsh_benchmark pdsh_benchmark.cc)
+target_link_libraries(pdsh_benchmark PRIVATE DataFrame)
